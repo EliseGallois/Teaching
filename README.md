@@ -8,4 +8,4 @@ This term I'm teaching:
 - Outreach
 - Coding Club
 - Data Science
-- NMDM
+- NMDM 1
