@@ -1,0 +1,69 @@
+---
+title: "Edinburgh Biodiversity"
+author: Elise Gallois
+date: 01/Oct/2020
+output: html_document
+mainfont: Arial
+---
+```{r}
+norm <- rnorm(100, mean = 0, sd = 1)
+```
+
+```{r, echo = FALSE}
+A <- c("a", "a", "b", "b")
+B <- c(5, 10, 15, 20)
+dataframe <- data.frame(A, B)
+plot(dataframe)
+```
+
+```{r, warning = FALSE}
+library(dplyr)
+```
+
+```{r, fig.width = 4, fig.height = 3}
+A <- c("a", "a", "b", "b")
+B <- c(5, 10, 15, 20)
+dataframe <- data.frame(A, B)
+plot(dataframe)
+```
+
+```{r}
+dataframe
+```
+
+```{r}
+library(knitr)
+kable(dataframe, digits = 2)
+```
+
+
+```{r}
+library(pander)
+plant <- c("a", "b", "c")
+temperature <- c(20, 20, 20)
+growth <- c(0.65, 0.95, 0.15)
+dataframe <- data.frame(plant, temperature, growth)
+emphasize.italics.cols(3)   # Make the 3rd column italics
+pander(dataframe)           # Create the table
+```
+
+
+
+| Plant | Temp. | Growth |
+|:------|:-----:|-------:|
+| A     | 20    | 0.65   |
+| B     | 20    | 0.95   |
+| C     | 20    | 0.15   |
+
+
+
+
+[Link](https://www.google.com)
+
+```{r global_options, include = FALSE}
+knitr::opts_chunk$set(message=FALSE, 
+tidy.opts=list(width.cutoff=60)) 
+```
+
+
+
