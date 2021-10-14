@@ -9,3 +9,9 @@ This term I'm teaching:
 - Coding Club
 - Data Science
 - NMDM 
+
+This term I am not teaching:
+- juggling
+- karate
+- typography
+- flower arranging
