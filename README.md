@@ -1,6 +1,8 @@
 # Teaching
 
+
 - Elise Gallois, PhD
+
 - Teaching Resources
 - Website: www.elisegallois.com
 
